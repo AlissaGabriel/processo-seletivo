@@ -1,42 +1,36 @@
 # Teste Prático - Estágio de Programação Web
 
-## 📋 Descrição do Teste
-Você deve criar uma **página web simples** que contenha:
-- Um formulário de cadastro com os seguintes campos:
+## 📌 Funcionalidades
+ Este projeto consiste em um formulário de cadastro simples com os seguintes campos:
   - **Nome**
   - **E-mail**
   - **Senha**
-- Um botão de submit que exiba os dados preenchidos em um alerta (popup) ao clicar.
+- Um botão de "Enviar" que exibe os dados preenchidos em um alerta (popup) ao clicar.
+- Um botão de "Limpar" que apaga rapidamente os dados preenchidos nos campos.
+  - **Observação:** A página é **responsiva**, funcionando bem tanto em dispositivos móveis quanto em desktop.
 
-- Exemplo:
+---
+
+## 🚩 Como instalar e usar o projeto:
+**Siga os passos abaixo:**
+- **Baixe ou clone o projeto** em seu computador.
+  - Caso baixe o projeto, extraia a pasta no local de sua preferência.
+  - Para clonar via Git, use o comando abaixo:
   
-![Screenshot 2025-04-01 at 16 24 49](https://github.com/user-attachments/assets/6ba08daa-a5be-459f-abc2-a28a021d3ac8)
-
-
+     ```bash
+      git clone https://github.com/AlissaGabriel/processo-seletivo.git
+     ```
+     
+- **Acesse a pasta** extraída ou clonada e clique no arquivo chamado "index" para visualizar o formulário.
+- **Preencha os campos** do formulário e clique no botão "Enviar".
+- Ao clicar em "Enviar", um **alerta** exibirá os dados fornecidos. Para fechar, clique no botão "OK".
+- Após fechar o alerta, os campos do formulário serão automaticamente limpos e poderão ser preenchidos novamente.
 ---
 
-## 🚩 Requisitos
-- A página deve ser **responsiva** (funcionar bem em celular e desktop).
-- Os dados do formulário devem ser exibidos em um `alert()`
-
----
-
-## 🔥 Critérios de Avaliação
-
-1. ✅ **Funcionalidade básica funcionando**.
-2. ✅ **Organização do código**.
-3. ✅ **Estilo simples e responsivo.**
-4. ✅ **README.md bem estruturado explicando como visualizar o projeto.**
-
----
-
-## 📌 Instruções para Entrega
-
-1. Faça um **fork** deste repositório no seu GitHub.
-2. Desenvolva a aplicação conforme os requisitos descritos acima.
-3. Certifique-se de que seu código esteja devidamente organizado.
-4. Inclua instruções no seu README.md explicando como abrir o projeto.
-5. Envie o link do seu repositório GitHub para avaliação.
-
----
-Boa sorte e bom trabalho! 🚀
+## 📁 Estrutura dos arquivos:
+O projeto está organizado da seguinte forma:
+- `index.html`: Contém o formulário com os campos Nome, E-mail e Senha, além dos botões de "Enviar" e "Limpar".
+- `style.css`: Responsável pela estilização da página, tornando-a responsiva e visualmente agradável.
+- `script.js`: Dentro deste arquivo, foram criadas duas funções:
+  - Uma para capturar os dados do formulário e exibi-los no alerta.
+  - Outra para alternar a visibilidade da senha.
