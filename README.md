@@ -5,9 +5,15 @@
   - **Nome**
   - **E-mail**
   - **Senha**
-- Um botão de "Enviar" que exibe os dados preenchidos em um alerta (popup) ao clicar.
-- Um botão de "Limpar" que apaga rapidamente os dados preenchidos nos campos.
-  - **Observação:** A página é **responsiva**, funcionando bem tanto em dispositivos móveis quanto em desktop.
+    
+Além disso, possui duas funcionalidades principais:
+- Botão de **submit**: Um botão de "Enviar" que exibe os dados preenchidos em um alerta (popup) ao clicar.
+- Botão de **reset**: Um botão de "Limpar" que apaga rapidamente os dados preenchidos nos campos.
+
+---
+
+## Responsividade: 
+A página é **responsiva**, funcionando bem tanto em dispositivos móveis quanto em desktop.
 
 ---
 
@@ -21,16 +27,17 @@ Siga os passos abaixo:
       git clone https://github.com/AlissaGabriel/processo-seletivo.git
      ```
      
-- **Acesse a pasta** extraída ou clonada e clique no arquivo chamado "index" para visualizar o formulário.
+- **Acesse a pasta** extraída ou clonada e abra o arquivo chamado **`index.html`** no seu navegador para visualizar o formulário.
 - **Preencha os campos** do formulário e clique no botão "Enviar".
-- Ao clicar em "Enviar", um **alerta** exibirá os dados fornecidos. Para fechar, clique no botão "OK".
+- Ao clicar em "Enviar", um **alerta (popup)** exibirá os dados fornecidos. Para fechar, clique no botão "OK".
 - Após fechar o alerta, os campos do formulário serão automaticamente limpos e poderão ser preenchidos novamente.
 ---
 
 ## 📁 Estrutura dos arquivos:
 O projeto está organizado da seguinte forma:
-- `index.html`: Contém o formulário com os campos Nome, E-mail e Senha, além dos botões de "Enviar" e "Limpar".
-- `style.css`: Responsável pela estilização da página, tornando-a responsiva e visualmente agradável.
-- `script.js`: Dentro deste arquivo, foram criadas duas funções:
-  - Uma para capturar os dados do formulário e exibi-los no alerta.
-  - Outra para alternar a visibilidade da senha.
+- **`index.html`**: Contém o formulário com os campos Nome, E-mail e Senha, além dos botões de "Enviar" e "Limpar".
+- Dentro da pasta **"assets"**, há duas subpastas chamadas **"css"** e **"js"**:
+    - **`css/style.css`**: Responsável pela estilização da página, tornando-a responsiva e visualmente agradável.
+    - **`js/script.js`**: Dentro deste arquivo, foram criadas duas funções:
+      - A primeira captura os dados do formulário e exibe um alerta (popup) com essas informações.
+      - A segunda permite alternar a visibilidade da senha, permitindo ocultá-la ou mostrá-la.
