@@ -12,7 +12,7 @@
 ---
 
 ## 🚩 Como instalar e usar o projeto:
-**Siga os passos abaixo:**
+Siga os passos abaixo:
 - **Baixe ou clone o projeto** em seu computador.
   - Caso baixe o projeto, extraia a pasta no local de sua preferência.
   - Para clonar via Git, use o comando abaixo:
